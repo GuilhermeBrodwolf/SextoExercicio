@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//4)
+
+		inteiro metro
+		escreva("insira a metragem \n")
+		leia(metro)
+		inteiro centimetros = metro*100
+		escreva("10 metros equivale a ", centimetros, " centimentros \n")
+
+		escreva("\n")
+
+		//5)
+
+		inteiro le
+		escreva("escreva o valor da medida do lado esquerdo do quadrado \n")
+		leia(le)
+		inteiro area = le * le
+		inteiro dobro = area * 2
+		escreva("o valor da area é 5 vezes 5 que é = ", area, ", e o valor de dobro é ", dobro, "\n")
+
+
+		escreva("\n")
+		
+		//6)
+
+		inteiro hora
+		escreva("quanto você ganha por hora? \n")
+		leia(hora)
+		inteiro mes
+		escreva("quantas horas você trabalha por mês? \n")
+		leia(mes)
+		inteiro salario = hora * mes
+		escreva(salario)
+		
+	}
+}
